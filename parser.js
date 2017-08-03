@@ -32,11 +32,12 @@ class PersonParser {
     fs.readFile(this._file, `utf-8`, (err, data) => {
       let dataFile = data.trim().split('\n')
       let temp = []
-      for (var i = 0; i < dataFile.length; i++) {
+      for (var i = 1; i < dataFile.length; i++) {
         let arr = dataFile[i].split(',')
         temp.push(new Person(
           arr[0],
           arr[1],
+          arr[2],
           arr[3],
           arr[4],
           arr[5]
