@@ -56,7 +56,9 @@ class PersonParser {
 
   addPerson() {
     var today = new Date()
-    var add = new Person(this._people.length+1, 'achim', 'baggins', 'achim_baggins@yahoo.com', '0818-0370-4343', today.toISOString())
+    // let
+    let newNum = parseInt(this._people[this._people.length-1]._id)
+    var add = new Person(newNum+1, 'achim', 'baggins', 'achim_baggins@yahoo.com', '0818-0370-4343', today.toISOString())
     var arrNewPeople = []
 
     this._people.push(add)
