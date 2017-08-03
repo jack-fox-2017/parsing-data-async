@@ -1,0 +1,24 @@
+{
+  "name": "parsing-data-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack-fox-2017/parsing-data-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jack-fox-2017/parsing-data-1/issues"
+  },
+  "homepage": "https://github.com/jack-fox-2017/parsing-data-1#readme",
+  "dependencies": {
+    "callback-stream": "^1.1.0",
+    "fast-csv": "^2.4.0"
+  },
+  "devDependencies": {}
+}
